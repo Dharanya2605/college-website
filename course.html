@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!----main page-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+     <!----course----->
+     <section class="course">
+        <h1>Courses we offer</h1>
+        <p> We are dedicated to providing a comprehensive and diverse range of academic programs designed to equip students with the knowledge and skills needed for success in their chosen fields. 
+            <br>Our offerings include:Undergraduate Programs,Graduate Programs,Short Courses & Certifications</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate Programs</h3>
+                <p>Our bachelor’s degrees span various disciplines, including Computer Science, Business Administration, and Nursing. Each program emphasizes a blend of theoretical knowledge and practical experience, preparing graduates for the workforce or further study.</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduate Programs</h3>
+                <p>We offer advanced degrees such as a Master of Science in Data Science and an MBA, focusing on leadership, analytical skills, and strategic thinking. Our graduate programs are tailored for professionals looking to enhance their expertise and career prospects.</p>
+            </div>
+            <div class="course-col">
+                <h3>Short Courses & Certifications</h3>
+                <p>For those seeking to upskill or explore new areas, our short courses and certifications cover vital topics like Web Development and Digital Marketing. These programs are designed for flexibility and can be completed in a shorter timeframe, catering to busy professionals.</p>
+            </div>
+
+        </div>
+    </section>
+
+       <!----facilities-->
+       <section class="facilities">
+        <h1>Our facilities</h1>
+        <p> We pride ourselves on providing facilities that enhance the learning experience and support student success. Our campus is designed to foster collaboration, innovation, and personal growth.
+            <br>Our key facilities:Modern Classrooms,Libraries and Study Spaces ,Laboratories and Research Centers,Student Center,Technology and Innovation Hub</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/eduford_img/library.png">
+            <h3>World Class Library</h3>
+            <p> Library offers a vast collection of resources, including books, journals, and digital media. Quiet study areas and group collaboration spaces provide an ideal environment for research and study.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/eduford_img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>We understand the importance of recreation and physical activity in a balanced education. Our playground offers a vibrant space for students to unwind, socialize, and engage in various sports and outdoor activities</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/eduford_img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our cafeteria is more than just a dining facility; It’s a gathering place where students can refuel, connect, and enjoy a variety of nutritious meals</p>
+        </div>
+    </div>
+    </section>
+
+
+
+    
+
+        
+
+  
+
+    
+    
+
+    <!---footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>  We are committed to providing a transformative educational experience that empowers students to achieve their personal and professional goals. <br>Established in 2024, our institution has a rich history of academic excellence, innovation, and community engagement. <br>Our mission is to foster a learning environment that encourages critical thinking, creativity, and collaboration.<br>We envision a future where education transcends boundaries and empowers individuals to become informed, engaged, and responsible global citizens.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by easy tutorials</p>
+    
+    </section>
+
+
+
+
+
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
